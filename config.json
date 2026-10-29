@@ -1,0 +1,25 @@
+{
+  "port": 8765,
+  "pin": "482913",
+  "allowed_actions": [
+    "power_shutdown",
+    "power_reboot",
+    "power_lock",
+    "power_sleep",
+    "media_volume_up",
+    "media_volume_down",
+    "media_mute",
+    "media_play_pause",
+    "media_prev",
+    "media_next",
+    "shortcut_send"
+  ],
+  "shortcut_buttons": [
+    { "id": "s1", "label": "显示桌面", "cmd": "win+d" },
+    { "id": "s2", "label": "切换窗口", "cmd": "alt+tab" },
+    { "id": "s3", "label": "复制", "cmd": "ctrl+c" },
+    { "id": "s4", "label": "关闭程序", "cmd": "alt+f4" },
+    { "id": "s5", "label": "任务管理器", "cmd": "ctrl+shift+esc" },
+    { "id": "s6", "label": "运行", "cmd": "win+r" }
+  ]
+}
